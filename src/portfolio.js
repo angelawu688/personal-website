@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Washington",
-      logo: require("./assets/images/UW_Logo.png"),
+      logo: require("./assets/images/UW_Seal.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2023 - current",
       desc: "Building Ripple - UW's trusted marketplace. Taking courses in Operating Systems, Software Development, Data Structures, and Algorithms.",
