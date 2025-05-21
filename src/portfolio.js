@@ -26,7 +26,7 @@ const greeting = {
     "A full stack software developer with a passion for building and entrepreneurship"
   ),
   resumeLink:
-    " ", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -60,18 +60,18 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -84,14 +84,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -126,8 +126,8 @@ const educationInfo = {
       logo: require("./assets/images/UW_Seal.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2023 - current",
-      desc: "Building Ripple - UW's trusted marketplace. Taking courses in Operating Systems, Software Development, Data Structures, and Algorithms.",
-      descBullets: ["cseed buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Member"]
+      desc: "Taking courses in Operating Systems, Software Development, Data Structures, and Algorithms.",
+      descBullets: ["Building Ripple - UW's trusted marketplace", "cseed buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Member"]
     }
   ]
 };
@@ -135,10 +135,10 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: false,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend/Design", 
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -150,39 +150,43 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display Codersrank profile, defaults to false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Ripple",
+      companyWebsite: "https://www.rippleu.net",
+      companylogo: require("./assets/images/RippleLogo.png"),
+      date: "September 2024 – current",
+      desc: "Launched trusted, hyperlocal, online marketplace platform for university students",
+      descBullets:["Driving 600+ waitlist sign-ups and 150+ users within the first day and 20+ transactions in the first two weeks"]
+    },
+    {
+      role: "Interactive Data Lab Research Assistant",
+      company: "University of Washington",
+      companyWebsite: "https://idl.uw.edu",
+      companylogo: require("./assets/images/UW_Seal.png"),
+      date: "Jan 2025 – current",
+      desc: "Investigating how visualization toolkits encode data visualization design principles and how it impacts the user’s learning process"
+    },
+    {
+      role: "Software Engineer",
+      company: "Husky Coding Project",
+      companyWebsite: "https://github.com/orgs/hcp-uw/teams/shroomies",
+      companylogo: require("./assets/images/hcp.png"),
+      date: "October 2023 – June 2024",
+      desc: "Developed FungiFind, a full-stack mobile application using React Native that classifies mushrooms in real-time as poisonous/non-poisonous",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Compiled 5000+ mushroom images and used image augmentation to increase dataset size by 50%",
+        "Trained VGG image classification model using Tensorflow, acheiving 80% accuracy",
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
