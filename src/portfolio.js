@@ -36,6 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/angelawu688",
   linkedin: "https://www.linkedin.com/in/angela-s-wu",
   gmail: "angelawu097@gmail.com",
+  twitter: "https://www.x.com/angela_s_wu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -127,7 +128,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2023 - current",
       desc: "Taking courses in Operating Systems, Software Development, Data Structures, and Algorithms.",
-      descBullets: ["Building Ripple - UW's trusted marketplace", "cseed buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Member"]
+      descBullets: ["Building Ripple - UW's trusted marketplace", "cseed upcoming Co-President + buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Consultant"]
     }
   ]
 };
@@ -216,17 +217,6 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -261,33 +251,6 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -358,17 +321,16 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  // number: "+92-0000000000",
   email_address: "angelawu097@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "angela_s_wu",
   display: false // Set true to display this section, defaults to false
 };
 
