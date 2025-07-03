@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Angela Wu",
-  title: "Hi, I'm Angela",
+  title: "hi, i'm angela",
   subTitle: emoji(
-    "A full stack software developer with a passion for building and entrepreneurship"
+    "software developer with a passion for building and entrepreneurship (+ full-stack!)"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -125,10 +125,10 @@ const educationInfo = {
     {
       schoolName: "University of Washington",
       logo: require("./assets/images/UW_Seal.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2023 - current",
-      desc: "Taking courses in Operating Systems, Software Development, Data Structures, and Algorithms.",
-      descBullets: ["Building Ripple - UW's trusted marketplace", "cseed upcoming Co-President + buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Consultant"]
+      subHeader: "B.S. in Computer Science",
+      duration: "Sept. 2023 - current",
+      desc: "Taking courses in Operating Systems, Distributed Systems, Data Structures, and Algorithms.",
+      descBullets: ["Building Ripple - UW's trusted marketplace", "cseed Co-President + buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Consultant"]
     }
   ]
 };
@@ -160,33 +160,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Ripple",
-      companyWebsite: "https://www.rippleu.net",
-      companylogo: require("./assets/images/RippleLogo.png"),
-      date: "September 2024 – current",
-      desc: "Launched trusted, hyperlocal, online marketplace platform for university students",
-      descBullets:["Driving 600+ waitlist sign-ups and 150+ users within the first day and 20+ transactions in the first two weeks"]
+      role: "Software Engineering Intern",
+      company: "Atlassian",
+      companylogo: require("./assets/images/AtlassianLogo.png"),
+      date: "June 2025 – current",
+      desc: "Developing features for Confluence Cloud",
     },
     {
-      role: "Interactive Data Lab Research Assistant",
-      company: "University of Washington",
+      role: "Research Assistant",
+      company: "Interactive Data Lab ",
       companyWebsite: "https://idl.uw.edu",
       companylogo: require("./assets/images/UW_Seal.png"),
-      date: "Jan 2025 – current",
+      date: "Jan. 2025 – current",
       desc: "Investigating how visualization toolkits encode data visualization design principles and how it impacts the user’s learning process"
-    },
-    {
-      role: "Software Engineer",
-      company: "Husky Coding Project",
-      companyWebsite: "https://github.com/orgs/hcp-uw/teams/shroomies",
-      companylogo: require("./assets/images/hcp.png"),
-      date: "October 2023 – June 2024",
-      desc: "Developed FungiFind, a full-stack mobile application using React Native that classifies mushrooms in real-time as poisonous/non-poisonous",
-      descBullets: [
-        "Compiled 5000+ mushroom images and used image augmentation to increase dataset size by 50%",
-        "Trained VGG image classification model using Tensorflow, acheiving 80% accuracy",
-      ]
     },
   ]
 };
@@ -202,23 +188,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "previously built",
+  subtitle: "what I work on with passion :)",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/RippleLogo.png"),
+      projectName: "Ripple",
+      projectDesc: "launched trusted, hyperlocal, online marketplace platform for university students",
+      projectDescBullets: ["450+ users within one month and 20+ transactions in two weeks!!"],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Here",
+          url: "https://www.rippleu.net"
         }
-        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/hcp_logo.png"),
+      projectName: "FungiFind",
+      projectDesc: "full-stack mobile application using React Native and VGG model that classifies mushrooms in real-time as poisonous/non-poisonous",
+      footerLink: [
+        {
+          name: "See Demo",
+          url: "https://drive.google.com/file/d/1Zh8ffIuEhJwMykk57BhE7O-ZNMbJeRUo/view?usp=sharing"
+        }
       ]
     },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -241,14 +238,6 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
   ],
@@ -321,9 +310,9 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me"),
+  title: emoji("contact me"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "talk to me about entrepreneurship, the outdoors, or anything :)",
   email_address: "angelawu097@gmail.com"
 };
 
