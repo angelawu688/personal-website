@@ -126,7 +126,8 @@ const educationInfo = {
       schoolName: "University of Washington",
       logo: require("./assets/images/UW_Seal.png"),
       subHeader: "B.S. in Computer Science",
-      desc: "Taking courses in Operating Systems, Distributed Systems, Data Structures, Algorithms, Probability.",
+      duration: "Sept. 2023 - current",
+      desc: "Taking courses in Operating Systems, Distributed Systems, Data Structures, and Algorithms.",
       descBullets: ["Building Ripple - UW's trusted marketplace", "cseed Co-President + buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Consultant"]
     }
   ]
