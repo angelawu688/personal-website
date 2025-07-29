@@ -127,8 +127,14 @@ const educationInfo = {
       logo: require("./assets/images/UW_Seal.png"),
       subHeader: "B.S. in Computer Science",
       duration: "Sept. 2023 - current",
-      desc: "Taking courses in Operating Systems, Distributed Systems, Data Structures, and Algorithms.",
-      descBullets: ["Building Ripple - UW's trusted marketplace", "cseed Co-President + buildHER Officer", "Duhacks Next Fellow", "Paul. G Allen School Student Advisory Council Officer", "Montlake Consulting Group Project Manager and Consultant"]
+      desc: "Taking courses in Operating Systems, Distributed Systems, Data Structures and Algorithms.",
+      descBullets: [
+        { id: "ripple", text: "Building Ripple - UW's trusted marketplace" },
+        { id: "cseed", text: "cseed Co-President + buildHER Officer", url: "https://www.cseed.co"},
+        { id: "dubhacks", text: "Dubhacks Next Fellow", url: "https://next.dubhacks.co"},
+        { id: "sac", text: "Paul. G Allen School Student Advisory Council Officer", url: "https://sac.cs.washington.edu"},
+        { id: "mcg", text: "Montlake Consulting Group Project Manager and Consultant", url: "https://montlakeconsulting.com" }
+      ]
     }
   ]
 };
