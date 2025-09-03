@@ -22,9 +22,10 @@ const illustration = {
 const greeting = {
   username: "Angela Wu",
   title: "hi, i'm angela",
-  subTitle: emoji(
-    "software developer with a passion for building and entrepreneurship (+ full-stack!)"
-  ),
+  subTitle:
+    "software developer with a passion for building and entrepreneurship",
+  subsubTitle:
+    "broadly interested in full-stack with a focus on back-end systems + systems software!",
   resumeLink:
     "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
